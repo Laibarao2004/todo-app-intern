@@ -2,13 +2,16 @@
 
 A responsive, lightweight To-Do List web application built with plain HTML5, CSS3, and vanilla JavaScript (no frameworks or libraries).
 
+🔗 **Live Demo**: [https://laibarao2004.github.io/todo-app-intern/](https://laibarao2004.github.io/todo-app-intern/)  
+📁 **Repository**: [https://github.com/Laibarao2004/todo-app-intern](https://github.com/Laibarao2004/todo-app-intern)
+
 ---
 
-## 🚀 How to Run the App
+## 🚀 How to Run the App Locally
 
 1. **Directly in your Browser**:
-   - Double-click `index.html` or right-click `index.html` and choose **Open with** > **Google Chrome** (or any modern web browser such as Edge, Firefox, or Safari).
-   - Alternatively, open your browser and press `Ctrl + O` (or `Cmd + O` on macOS) and select the `index.html` file.
+   - Double-click `index.html` or right-click `index.html` and choose **Open with** > **Google Chrome** (or Edge, Firefox, Safari).
+   - Alternatively, open your browser and press `Ctrl + O` and select the `index.html` file.
 
 2. **Using a Local Development Server (Optional)**:
    - If you have Python installed:
@@ -16,7 +19,6 @@ A responsive, lightweight To-Do List web application built with plain HTML5, CSS
      python -m http.server 8000
      ```
      Then navigate to `http://localhost:8000` in your browser.
-   - If you use VS Code / Antigravity IDE, you can also use extensions like **Live Server**.
 
 ---
 
