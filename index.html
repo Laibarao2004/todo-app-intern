@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-container">
+    <div class="todo-card">
+      <header class="app-header">
+        <div class="header-title-row">
+          <div class="icon-circle">✓</div>
+          <h1>Task Flow</h1>
+        </div>
+        <p class="subtitle">Stay organized and get things done</p>
+      </header>
+
+      <!-- Task input form -->
+      <form id="todo-form" class="task-form">
+        <div class="input-wrapper">
+          <input
+            type="text"
+            id="task-input"
+            class="task-input"
+            placeholder="What needs to be done?"
+            autocomplete="off"
+            aria-label="New task description"
+          />
+          <button type="submit" id="add-btn" class="btn btn-primary" aria-label="Add task">
+            Add Task
+          </button>
+        </div>
+      </form>
+
+      <!-- Task count summary -->
+      <section class="task-summary" id="task-summary">
+        <span id="task-count">0 tasks</span>
+        <span id="completed-count">0 completed</span>
+      </section>
+
+      <!-- Empty state placeholder -->
+      <div id="empty-state" class="empty-state" role="status">
+        <div class="empty-icon">📝</div>
+        <p class="empty-title">No tasks yet</p>
+        <p class="empty-hint">Type a task above and press Enter or click "Add Task" to start.</p>
+      </div>
+
+      <!-- Task list with event delegation -->
+      <ul id="task-list" class="task-list" aria-label="Task list" aria-live="polite"></ul>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
